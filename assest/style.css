@@ -1,3 +1,8 @@
+.container{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(247,247,247,255);
+}
+
 .navbar{
     width: 100%;
     display: flex;
@@ -57,10 +62,10 @@
     justify-content: center;
     text-align: center;
     gap: 2rem;
-    margin: 3rem 5%;
+    padding: 3rem 5%;
 }
 .image{
-    width: 448px;
+    max-width: 448px;
     height: 219px;
     position: relative;
 
@@ -99,8 +104,13 @@
     opacity: 1;
 
 }
+footer{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(247,247,247,255);
+
+}
 .Monarch{
-    width: 60%;
+    width: 50%;
 }
 .Monarch h2{
     font-size: 1.5rem;
@@ -134,4 +144,29 @@ border-radius: 5px;
 }
 .end-icon h1{
     padding-bottom: 20px;
+}
+
+.Navigation .list{
+    display: flex;
+}
+.list .list-1{
+    padding-top: 2rem;
+    padding-right: 2rem;
+}
+.list-1 li{
+    padding-bottom: 0.75rem;
+}
+.list .list-2{
+    padding-top: 2rem;
+    padding-right: 2rem;
+}
+.list-2 li{
+    padding-bottom: 0.75rem;
+}
+
+.list .list-3{
+    padding-top: 2rem;
+}
+.list-3 li{
+    padding-bottom: 0.75rem;
 }
